@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form
+    </title>
+</head>
+<body>
+    <h1 > ABC COLLEGE </h1>
+ <p >***** road , near *************** , NH-//, city name, district name, state name , pincode <br> 
+contact number: 0000000000 ,0000000000  </p>
+ <h2 > College Admission Form <br> session:2026-2027 </h2>
+ <form>
+ 
+
+     (All the required information are followed by * .) <br>
+
+ 
+
+ <h3 > STUDENT INFORMATION </h3>
+<p> <label for="fname">"Student First Name"*:</label>
+    <input type="text" name="fname" required> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+   <label for="lname">"Student Last Name" *:</label>  <input type="text" name="lname"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <label for="fathername">"Father's Name" *:</label>  <input type="text" required name="fathername"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <label for="mothersname"> "Mother's name" *:</label>  <input type="text" required name="mothername"></p>
+
+<p><label for="spn">"Student Phone Number" :</label>  <input type="tel" name="spn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+   <label for="fpn"> "Father Phone Number*"  :</label>  <input type="tel" required name="fpn"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  <label for="mpn" > "Mother Phone number" *: </label> <input type="tel" required name="mpn"></p>
+
+<p><label for="address"> "Address" : </label> <textarea cols="20" rows="5" name="address"></textarea>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+   <label for="email"> "Student Email ID" :</label>  <input type="email" name="email"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+   <label for="photo"> "Student Passport size photo" : </label> <input type="file" name="photo" accept="image/*"></p>
+
+<p><label for="dob"> "DOB"  : </label> <input type="date" name="DOB">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <label for="gender">"Gender" :</label>  Female</label> <input type="radio" class="female" name="gender"> Male<input type="radio" class="male" name="gender"> Others<input type="radio" class="others" name="gender"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <label for="course"> Course applying for * :</label>  <select required> 
+    <option value="">select your course</option>
+    <option value="Btech"> Btech</option>
+    <option value="Mtech"> Mtech</option>
+    <option value="BCA">BCA</option>
+    <option value="MCA">MCA</option>
+    <option value="Bpharma">Bpharma</option>
+    <option value="Agriculture">Agriculture</option>
+</select> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+ <label for="cat"> "Category"  :</label>  Gen<input type="radio" name="catg"> Obc<input type="radio" name="catg"> sc/st<input type="radio" name="catg"></p>
+
+<p> <label for="bg">"Blood Group" :</label>  <select name="blood group"> 
+    <option value="A+"> A+</option>
+    <option value="A-"> A-</option>
+    <option value="B+">B+</option>
+    <option value="B-"> B-</option>
+    <option value="AB+">AB+</option>
+    <option value="AB-">AB-</option>
+    <option value="O-">O-</option>
+    <option value="O+">O+</option>
+</select>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+ <label for="status">"Marital Status" :</label>  Married<input type="radio" name="status" class="married"> Unmarried<input type="radio" name="status" class="unmarried">
+</p>
+<p> Upload the following documents: <br> 
+<ol type="I"> 
+    <li> <label for="10th"> 10th marksheet :</label>  <input type="file" accept=".pdf,.jpg,.jpeg,.png" name="10th" > </li>
+    <li> <label for="12th"> 12th marksheet:*</label>  <input type="file" accept=".pdf,.jpg,.jpeg,.png" name="12th" required> </li>
+    <li> <label for="AadharCard">Aadhaar Card: </label> <input type="file" accept=".pdf,.jpg,.jpeg,.png" name="Aadhaar Card"> </li>
+    <li> <label for="scorecard">scorecard:* </label> <Input type="file" accept=".pdf,.jpg,.jpeg,.png" name="scorecard" required> </li>
+</ol> </p>
+
+<p>
+<fieldset> 
+    <legend> DECLARATION:</legend>
+    <input type="checkbox" name="declr 1" class="decl" id="dec">I/We hereby declare that all information and documents provided in this application are true and correct.<br>
+    <input type="checkbox" name="declr 2" class="decl" id="dec">  that all information and documents provided in this application are true and correct. I/We undertake to submit all original documents and abide by all rules and regulations of the college, failing which my admission is liable to be cancelled.<br>
+    <input type="checkbox" name="declr3" class="decl" id="dec"> I agree to maintain the minimum required attendance set by the university and pay all tuition and campus fees on time. I acknowledge that failure to meet these requirements may result in my suspension from examinations.
+</fieldset></p>
+
+ <p>
+ <input type="reset" name="reset"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="submit" style="text-align: end;" name="submit"> </p> 
+
+
+ </form>
+ 
+
+</body>
+</html>
